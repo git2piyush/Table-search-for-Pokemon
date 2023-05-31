@@ -25,7 +25,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <input type="text" placeholder="search here" onChange={getPokemonName} />
+      <input type="text" placeholder="search pokemon" onChange={getPokemonName} />
       {data && (
         <table>
           <thead>
